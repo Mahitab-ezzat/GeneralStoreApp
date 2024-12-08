@@ -1,0 +1,451 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.13.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, port: [33m54164[39m }
+[38;5;112m[Appium][0m The APPIUM_HOME environment variable: C:\Users\DELL\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 0.598s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:54164/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.86.31:54164/wd/hub
+	http://127.0.0.1:54164/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@3.9.1 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;107m[AppiumDriver@1f88][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;107m[AppiumDriver@1f88][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.13.0"}}
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;107m[AppiumDriver@1f88][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;107m[AppiumDriver@1f88][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.13.0"}}
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":"true","appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"1d596765","appium:fullReset":"false","appium:ignoreHiddenApiPolicyError":"true","appium:newCommandTimeout":1800,"appium:noReset":"true","appium:platformName":"Android","appium:platformVersion":"14","appium:systemPort":8288,"appium:udid":"1d596765","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":"true","appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"1d596765","appium:fullReset":"false","appium:ignoreHiddenApiPolicyError":"true","appium:newCommandTimeout":1800,"appium:noReset":"true","appium:platformName":"Android","appiu...[39m
+[38;5;107m[AppiumDriver@1f88][0m Calling AppiumDriver.createSession() with args: [{"appium:app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":"true","appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"1d596765","appium:fullReset":"false","appium:ignoreHiddenApiPolicyError":"true","appium:newCommandTimeout":1800,"appium:noReset":"true","appium:platformName":"Android","appium:platformVersion":"14","appium:systemPort":8288,"appium:udid":"1d596765"},null,{"firstMatch":[{"appium:app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":"true","appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"1d596765","appium:fullReset":"false","appium:ignoreHiddenApiPolicyError":"true","appium:newCommandTimeout":1800,"appium:noReset":"true","appium:platformName":"Android","appium:platformVersion":"14","appium:systemPort":8288,"appium:ud...
+[38;5;107m[AppiumDriver@1f88][0m Event 'newSessionRequested' logged at 1733679197410 (19:33:17 GMT+0200 (Eastern European Standard Time))
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=Android' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;107m[AppiumDriver@1f88][0m Appium v2.13.0 creating new AndroidUiautomator2Driver (v3.9.1) session
+[38;5;107m[AppiumDriver@1f88][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;107m[AppiumDriver@1f88][0m Appium's BaseDriver version is 9.13.0
+[38;5;107m[AppiumDriver@1f88][0m AndroidUiautomator2Driver's BaseDriver version is 9.13.0
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m 
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:app": "D:\\AndroidTesting\\FlairTech\\General-Store.apk",
+    "appium:appActivity": ".Settings",
+    "appium:appPackage": "com.android.settings",
+    "appium:autoGrantPermissions": "true",
+    "appium:automationName": "uiautomator2",
+    "appium:deviceId": "",
+    "appium:deviceName": "1d596765",
+    "appium:fullReset": "false",
+    "appium:ignoreHiddenApiPolicyError": "true",
+    "appium:newCommandTimeout": 1800,
+    "appium:noReset": "true",
+    "appium:platformVersion": "14",
+    "appium:systemPort": 8288,
+    "appium:udid": "1d596765"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m Capability 'fullReset' changed from string to boolean. This may cause unexpected behavior
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m Capability 'ignoreHiddenApiPolicyError' changed from string to boolean. This may cause unexpected behavior
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m The following provided capabilities were not recognized by this driver:
+[38;5;-162m[AndroidUiautomator2Driver@736e][0m   deviceId
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Session created with session id: 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Found 3 'build-tools' folders under 'C:\Users\DELL\AppData\Local\Android\Sdk' (newest first):
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m     C:\Users\DELL\AppData\Local\Android\Sdk\build-tools\36.0.0-rc1
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m     C:\Users\DELL\AppData\Local\Android\Sdk\build-tools\35.0.0
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m     C:\Users\DELL\AppData\Local\Android\Sdk\build-tools\34.0.0
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Retrieving device list
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"1d596765","state":"device"}]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Using device: 1d596765
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Setting device id to 1d596765
+[38;5;47m[4d157a7f][0m[38;5;123m[BaseDriver][0m Using local app 'D:\AndroidTesting\FlairTech\General-Store.apk'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Checking whether app is actually present
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell getprop ro.build.version.sdk'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.sdk': 34
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell getprop ro.build.version.release'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.release': 14
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Device API level: 34
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Relaxing hidden api policy
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Pushing settings apk to the device...
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys package io.appium.settings'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\DELL\AppData\Local\Android\Sdk\build-tools\36.0.0-rc1\aapt2.exe'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Reading package manifest: 'C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\build-tools\\36.0.0-rc1\\aapt2.exe dump badging C:\\Users\\DELL\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\io.appium.settings\\apks\\settings_apk-debug.apk'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.12.17' >= '5.12.17')
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m There is no need to install/upgrade 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys activity services io.appium.settings'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;47m[4d157a7f][0m[38;5;160m[Logcat][0m Starting logs capture with command: C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 1d596765 logcat -v threadtime
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell appops set io.appium.settings android:mock_location allow'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Failed to set setting keys 'hidden_api_policy_pre_p_apps,hidden_api_policy_p_apps,hidden_api_policy' to '1'. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 1d596765 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 255'; Command output: 
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2656)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1610)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1564)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:524)
+	at android.content.ContentProvider.call(ContentProvider.java:2716)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:641)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:385)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:281)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:53)
+	at android.os.Binder.shellCommand(Binder.java:1092)
+	at android.os.Binder.onTransact(Binder.java:912)
+	at android.os.Binder.execTransactInternal(Binder.java:1392)
+	at android.os.Binder.execTransact(Binder.java:1299)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2656)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1610)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1564)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:524)
+	at android.content.ContentProvider.call(ContentProvider.java:2716)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:641)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:385)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:281)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:53)
+	at android.os.Binder.shellCommand(Binder.java:1092)
+	at android.os.Binder.onTransact(Binder.java:912)
+	at android.os.Binder.execTransactInternal(Binder.java:1392)
+	at android.os.Binder.execTransact(Binder.java:1299)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2656)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1610)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1564)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:524)
+	at android.content.ContentProvider.call(ContentProvider.java:2716)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:641)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:385)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:281)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:53)
+	at android.os.Binder.shellCommand(Binder.java:1092)
+	at android.os.Binder.onTransact(Binder.java:912)
+	at android.os.Binder.execTransactInternal(Binder.java:1392)
+	at android.os.Binder.execTransact(Binder.java:1299)
+
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Unable to set mock location for app 'io.appium.settings': Error executing adbExec. Original error: 'Command 'C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 1d596765 shell appops set io.appium.settings android\:mock_location allow' exited with code 255'; Command output: 
+Exception occurred while executing 'set':
+java.lang.SecurityException: uid 2000 does not have android.permission.MANAGE_APP_OPS_MODES.
+	at android.app.ContextImpl.enforce(ContextImpl.java:2384)
+	at android.app.ContextImpl.enforcePermission(ContextImpl.java:2393)
+	at com.android.server.appop.AppOpsService.enforceManageAppOpsModes(AppOpsService.java:1815)
+	at com.android.server.appop.AppOpsService.setMode(AppOpsService.java:2008)
+	at com.android.server.appop.AppOpsService.setMode(AppOpsService.java:1996)
+	at com.android.server.appop.AppOpsService.onShellCommand(AppOpsService.java:4815)
+	at com.android.server.appop.AppOpsService$Shell.onCommand(AppOpsService.java:4584)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.appop.AppOpsService.onShellCommand(AppOpsService.java:4756)
+	at android.os.Binder.shellCommand(Binder.java:1092)
+	at android.os.Binder.onTransact(Binder.java:912)
+	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:1120)
+	at android.os.Binder.execTransactInternal(Binder.java:1392)
+	at android.os.Binder.execTransact(Binder.java:1299)
+
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Forwarding UiAutomator2 Server port 6790 to local port 8288
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Forwarding system: 8288 to device: 6790
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 forward tcp:8288 tcp:6790'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Getting install status for com.android.settings
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell cmd package list packages'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell cmd package list packages'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell cmd package list packages --user 0'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell cmd package list packages --user 0'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Reading package manifest: 'C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\build-tools\\36.0.0-rc1\\aapt2.exe dump badging C:\\Users\\DELL\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v7.1.5.apk'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.1.5' >= '7.1.5')
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m 'com.android.settings' is installed
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m noReset has been requested and the app is already installed. Doing nothing
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Server packages status: [{"installState":"sameVersionInstalled","appPath":"C:\\Users\\DELL\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v7.1.5.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"C:\\Users\\DELL\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Server packages are not going to be (re)installed
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Waiting up to 30000ms for services to be available
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell pm list instrumentation'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Performing shallow cleanup of automation leftovers
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m No obsolete sessions have been detected (socket hang up)
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell am force-stop io.appium.uiautomator2.server'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Starting UIAutomator2 server 7.1.5
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Using UIAutomator2 server from 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.1.5.apk' and test from 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","1d596765","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/status' to command name 'getStatus'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /status] to [GET http://127.0.0.1:8288/status] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m socket hang up
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m [Instrumentation] 
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/status' to command name 'getStatus'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /status] to [GET http://127.0.0.1:8288/status] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m socket hang up
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/status' to command name 'getStatus'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /status] to [GET http://127.0.0.1:8288/status] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m The initialization of the instrumentation process took 2130ms
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/session' to command name 'createSession'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [POST /session] to [POST http://127.0.0.1:8288/session] with body: {"capabilities":{"firstMatch":[{"platformName":"ANDROID","app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"1d596765","fullReset":false,"ignoreHiddenApiPolicyError":true,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":8288,"udid":"1d596765","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"1d596765","fullReset":false,"ignoreHiddenApiPolicyError":true,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":8288,"udid":"1d596765...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"capabilities":{"firstMatch":[{"platformName":"ANDROID","app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"1d596765","fullReset":false,"ignoreHiddenApiPolicyError":true,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":8288,"udid":"1d596765","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"1d596765","fullReset":false,"ignoreHiddenApiPolicyError":true,"newCommandTimeout":1800,"noReset":tr...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Determined the downstream protocol as 'W3C'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/appium/device/pixel_ratio] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/appium/device/system_bars] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/window/current/size] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/appium/device/info] with no body
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys window'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys power'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":2.55}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"height":2400,"width":1080}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"statusBar":112}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"androidId":"67f57f7d96042ed7","apiVersion":"34","bluetooth":{"state":"OFF"},"brand":"OPPO","carrierName":"Vodafone","displayDensity":408,"locale":"en_EG","manufacturer":"OPPO","model":"CPH2307","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":5197,"linkUpstreamBandwidthKbps":5197,"networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":null,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"ims","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":29251,"linkUpstreamBandwidthKbps":2936,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Screen already unlocked, doing nothing
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Getting IDs of all 'com.android.settings' processes
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell 'pgrep --help; echo $?''
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.android\.settings\(\[\[:blank:\]\]\|\$\)'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m 'com.android.settings' is already running and noReset is enabled. Set forceAppLaunch capability to true if the app must be forcefully restarted on session startup.
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m New AndroidUiautomator2Driver session created successfully, session 4d157a7f-9ba6-4f20-ab4e-82e1da677248 added to master session list
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m Event 'newSessionStarted' logged at 1733679201322 (19:33:21 GMT+0200 (Eastern European Standard Time))
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Cached the protocol value 'W3C' for the new session 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"ANDROID","app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"1d596765","fullReset":false,"ignoreHiddenApiPolicyError":true,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":8288,"udid":"1d596765","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"D:\\AndroidTesting\\FlairTech\\General-Store.apk","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"1d596765","fullReset":false,"ignoreHiddenApiPolicyError":true,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":8288,"udid":"1d596765"},"deviceUDID"...
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m3914 ms - 1327[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;107m[AppiumDriver@1f88][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;107m[AppiumDriver@1f88][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.13.0"}}
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m W3C timeout argument: {"implicit":60000}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Set implicit wait to 60000ms
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.timeouts() result: null
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/timeouts [39m[32m200[39m [90m4 ms - 14[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/execute/sync[39m [90m{"args":[],"script":"mobile: getSystemBars"}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.execute() with args: ["mobile: getSystemBars",[],"4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Executing native command 'mobile: getSystemBars'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys window windows'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.execute() result: {"navigationBar":{"visible":true,"x":0,"y":2288,"width":1080,"height":112},"statusBar":{"visible":true,"x":0,"y":0,"width":1080,"height":112}}
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/execute/sync [39m[32m200[39m [90m133 ms - 152[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/execute/sync[39m [90m{"args":[{"appId":"com.androidsample.generalstore","bundleId":"com.androidsample.generalstore"}],"script":"mobile: activateApp"}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.execute() with args: ["mobile: activateApp",[{"appId":"com.androidsample.generalstore","bundleId":"com.androidsample.generalstore"}],"4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Executing native command 'mobile: activateApp'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Activating 'com.androidsample.generalstore'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell cmd package resolve-activity --brief com.androidsample.generalstore'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell am start-activity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.androidsample.generalstore/.SplashActivity'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.androidsample.generalstore/.SplashActivity }
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.execute() result: null
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/execute/sync [39m[32m200[39m [90m245 ms - 14[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source' to command name 'getPageSource'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/source] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2176\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.androidsample.generalstore\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2400]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.androidsample.generalstore\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2288]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Replacing sessionId 7c58c36d-2985-48c8-a305-6ac1e868acea with 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source [39m[32m200[39m [90m55 ms - 17717[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/screenshot[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.getScreenshot() with args: ["4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/screenshot' to command name 'getScreenshot'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /screenshot] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/screenshot] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFxlvcfx7zmzZJJM9r0boS3QsjVlxxZoZWlBK0WqgCjgAigIV1DABfQCehUvIldABVQoKIhQAZGlbGUpBZTSAtIWaGlLl2zNPkkms537R5LpTDJJZpKZpNN83q8Xr1dm5jznPJkOmXO+53l+j1Gw7jxLAAAAAAAAacwc6w4AAAAAAACMFAEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7dnHugMAAAAAgPHpu8Wf09l5cwbd5q8tr+lXu/4xSj1COiPgAAAAALBHOiBjomwylGNm...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFxlvcfx7zmzZJJM9r0boS3QsjVlxxZoZWlBK0WqgCjgAigIV1DABfQCehUvIldABVQoKIhQAZGlbGUpBZTSAtIWaGlLl2zNPkkms537R5LpTDJJZpKZpNN83q8Xr1dm5jznPJkOmXO+53l+j1Gw7jxLAAAAAAAAacwc6w4AAAAAAACMFAEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7dnHugMAAAAAgPHpu8Wf09l5cwbd5q8tr+lXu/4xSj1COiPgAAAAALBHOiBjomwylGNmav+MCZKkD7t2qi3UqaAsfdC1Y4x7CGBPYhSsO88a604AQCRDhiTJEn+eAAAY...
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/screenshot [39m[32m200[39m [90m333 ms - 343404[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/window/rect[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.getWindowRect() with args: ["4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/window/current/size] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"height":2400,"width":1080}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.getWindowRect() result: {"width":1080,"height":2400,"x":0,"y":0}
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/window/rect [39m[32m200[39m [90m22 ms - 50[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = '$ 280.97' or . = '$ 280.97') and @resource-id = 'com.androidsample.generalstore:id/totalAmountLbl']","using":"xpath"}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = '$ 280.97' or . = '$ 280.97') and @resource-id = 'com.androidsample.generalstore:id/totalAmountLbl']","4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Waiting up to 60000 ms for condition
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/elements' to command name 'findElements'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [POST /elements] to [POST http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.TextView' and (@text = '$ 280.97' or . = '$ 280.97') and @resource-id = 'com.androidsample.generalstore:id/totalAmountLbl']","context":"","multiple":true}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":[{"ELEMENT":"00000000-0000-076d-ffff-ffff0000007c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-076d-ffff-ffff0000007c"}]}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-076d-ffff-ffff0000007c","ELEMENT":"00000000-0000-076d-ffff-ffff0000007c"}]
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/elements [39m[32m200[39m [90m328 ms - 139[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect' to command name 'getElementRect'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/element/00000000-0000-076d-ffff-ffff0000007c/rect] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"height":44,"width":134,"x":483,"y":1775}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Replacing sessionId 7c58c36d-2985-48c8-a305-6ac1e868acea with 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect [39m[32m200[39m [90m27 ms - 103[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/click[39m [90m{"id":"00000000-0000-076d-ffff-ffff0000007c"}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.click() with args: ["00000000-0000-076d-ffff-ffff0000007c","4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/element/00000000-0000-076d-ffff-ffff0000007c/click' to command name 'click'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [POST /element/00000000-0000-076d-ffff-ffff0000007c/click] to [POST http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/element/00000000-0000-076d-ffff-ffff0000007c/click] with body: {"element":"00000000-0000-076d-ffff-ffff0000007c"}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":null}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.click() result: null
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/click [39m[32m200[39m [90m97 ms - 14[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source' to command name 'getPageSource'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/source] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2176\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.androidsample.generalstore\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2400]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.androidsample.generalstore\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2288]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Replacing sessionId 7c58c36d-2985-48c8-a305-6ac1e868acea with 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source [39m[32m200[39m [90m57 ms - 17717[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/screenshot[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.getScreenshot() with args: ["4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/screenshot' to command name 'getScreenshot'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /screenshot] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/screenshot] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFxlvcfx7zmzZJJM9r0boS3QsjVlxxZoZWlBK0WqgCjgAigIV1DABfQCehUvIldABVQoKIhQAZGlbGUpBZTSAtIWaGlLl2zNPkkms537R5LpTDJJZpKZpNN83q8Xr1dm5jznPJkOmXO+53l+j1Gw7jxLAAAAAAAAacwc6w4AAAAAAACMFAEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7dnHugMAAAAAgPHpu8Wf09l5cwbd5q8tr+lXu/4xSj1COiPgAAAAALBHOiBjomwylGNm...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFxlvcfx7zmzZJJM9r0boS3QsjVlxxZoZWlBK0WqgCjgAigIV1DABfQCehUvIldABVQoKIhQAZGlbGUpBZTSAtIWaGlLl2zNPkkms537R5LpTDJJZpKZpNN83q8Xr1dm5jznPJkOmXO+53l+j1Gw7jxLAAAAAAAAacwc6w4AAAAAAACMFAEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7dnHugMAAAAAgPHpu8Wf09l5cwbd5q8tr+lXu/4xSj1COiPgAAAAALBHOiBjomwylGNmav+MCZKkD7t2qi3UqaAsfdC1Y4x7CGBPYhSsO88a604AQCRDhiTJEn+eAAAY...
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/screenshot [39m[32m200[39m [90m447 ms - 343404[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/window/rect[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.getWindowRect() with args: ["4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/window/current/size] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"height":2400,"width":1080}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.getWindowRect() result: {"width":1080,"height":2400,"x":0,"y":0}
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/window/rect [39m[32m200[39m [90m23 ms - 50[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = '$ 280.97' or . = '$ 280.97') and @resource-id = 'com.androidsample.generalstore:id/totalAmountLbl']","using":"xpath"}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = '$ 280.97' or . = '$ 280.97') and @resource-id = 'com.androidsample.generalstore:id/totalAmountLbl']","4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Waiting up to 60000 ms for condition
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/elements' to command name 'findElements'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [POST /elements] to [POST http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.TextView' and (@text = '$ 280.97' or . = '$ 280.97') and @resource-id = 'com.androidsample.generalstore:id/totalAmountLbl']","context":"","multiple":true}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":[{"ELEMENT":"00000000-0000-076d-ffff-ffff0000007c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-076d-ffff-ffff0000007c"}]}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-076d-ffff-ffff0000007c","ELEMENT":"00000000-0000-076d-ffff-ffff0000007c"}]
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/elements [39m[32m200[39m [90m205 ms - 139[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect' to command name 'getElementRect'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/element/00000000-0000-076d-ffff-ffff0000007c/rect] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":{"height":44,"width":134,"x":483,"y":1775}}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Replacing sessionId 7c58c36d-2985-48c8-a305-6ac1e868acea with 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/rect [39m[32m200[39m [90m44 ms - 103[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/text[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/text' to command name 'getText'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/text] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/element/00000000-0000-076d-ffff-ffff0000007c/text] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":"$ 280.97"}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Replacing sessionId 7c58c36d-2985-48c8-a305-6ac1e868acea with 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/element/00000000-0000-076d-ffff-ffff0000007c/text [39m[32m200[39m [90m40 ms - 71[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source' to command name 'getPageSource'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/source] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2176\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.androidsample.generalstore\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2400]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.androidsample.generalstore\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2288]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Replacing sessionId 7c58c36d-2985-48c8-a305-6ac1e868acea with 4d157a7f-9ba6-4f20-ab4e-82e1da677248
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/source [39m[32m200[39m [90m164 ms - 17717[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/screenshot[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.getScreenshot() with args: ["4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/screenshot' to command name 'getScreenshot'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [GET /screenshot] to [GET http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea/screenshot] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFxlvcfx7zmzZJJM9r0boS3QsjVlxxZoZWlBK0WqgCjgAigIV1DABfQCehUvIldABVQoKIhQAZGlbGUpBZTSAtIWaGlLl2zNPkkms537R5LpTDJJZpKZpNN83q8Xr1dm5jznPJkOmXO+53l+j1Gw7jxLAAAAAAAAacwc6w4AAAAAAACMFAEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7dnHugMAAAAAgPHpu8Wf09l5cwbd5q8tr+lXu/4xSj1COiPgAAAAALBHOiBjomwylGNm...
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFxlvcfx7zmzZJJM9r0boS3QsjVlxxZoZWlBK0WqgCjgAigIV1DABfQCehUvIldABVQoKIhQAZGlbGUpBZTSAtIWaGlLl2zNPkkms537R5LpTDJJZpKZpNN83q8Xr1dm5jznPJkOmXO+53l+j1Gw7jxLAAAAAAAAacwc6w4AAAAAAACMFAEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7RFwAAAAAACAtEfAAQAAAAAA0h4BBwAAAAAASHsEHAAAAAAAIO0RcAAAAAAAgLRHwAEAAAAAANIeAQcAAAAAAEh7BBwAAAAAACDtEXAAAAAAAIC0R8ABAAAAAADSHgEHAAAAAABIewQcAAAAAAAg7dnHugMAAAAAgPHpu8Wf09l5cwbd5q8tr+lXu/4xSj1COiPgAAAAALBHOiBjomwylGNmav+MCZKkD7t2qi3UqaAsfdC1Y4x7CGBPYhSsO88a604AQCRDhiTJEn+eAAAY...
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248/screenshot [39m[32m200[39m [90m491 ms - 343404[39m [90m[39m
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248[39m [90m{}[39m
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Calling AppiumDriver.deleteSession() with args: ["4d157a7f-9ba6-4f20-ab4e-82e1da677248"]
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m Event 'quitSessionRequested' logged at 1733679240999 (19:34:00 GMT+0200 (Eastern European Standard Time))
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m Removing session 4d157a7f-9ba6-4f20-ab4e-82e1da677248 from our master session list
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Deleting UiAutomator2 session
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Deleting UiAutomator2 server session
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Matched '/' to command name 'deleteSession'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8288/session/7c58c36d-2985-48c8-a305-6ac1e868acea] with no body
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Got response with status 200: {"sessionId":"7c58c36d-2985-48c8-a305-6ac1e868acea","value":null}
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m [Instrumentation] The process has exited with code null, signal SIGTERM
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Removing forwarded port socket connection: 8288 
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 forward --remove tcp:8288'
+[38;5;47m[4d157a7f][0m[38;5;-162m[AndroidUiautomator2Driver@736e][0m Restoring hidden api policy to the device default configuration
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Running 'C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 1d596765 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;47m[4d157a7f][0m[38;5;229m[ADB][0m Failed to delete keys 'hidden_api_policy_pre_p_apps,hidden_api_policy_p_apps,hidden_api_policy'. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 1d596765 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 255'; Command output: 
+Exception occurred while executing 'delete':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2656)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1610)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1602)
+	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1573)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:597)
+	at android.content.ContentProvider.call(ContentProvider.java:2716)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:641)
+	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:411)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:285)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:53)
+	at android.os.Binder.shellCommand(Binder.java:1092)
+	at android.os.Binder.onTransact(Binder.java:912)
+	at android.os.Binder.execTransactInternal(Binder.java:1392)
+	at android.os.Binder.execTransact(Binder.java:1299)
+
+Exception occurred while executing 'delete':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2656)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1610)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1602)
+	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1573)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:597)
+	at android.content.ContentProvider.call(ContentProvider.java:2716)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:641)
+	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:411)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:285)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:53)
+	at android.os.Binder.shellCommand(Binder.java:1092)
+	at android.os.Binder.onTransact(Binder.java:912)
+	at android.os.Binder.execTransactInternal(Binder.java:1392)
+	at android.os.Binder.execTransact(Binder.java:1299)
+
+Exception occurred while executing 'delete':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2656)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1610)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1602)
+	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1573)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:597)
+	at android.content.ContentProvider.call(ContentProvider.java:2716)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:641)
+	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:411)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:285)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:53)
+	at android.os.Binder.shellCommand(Binder.java:1092)
+	at android.os.Binder.onTransact(Binder.java:912)
+	at android.os.Binder.execTransactInternal(Binder.java:1392)
+	at android.os.Binder.execTransact(Binder.java:1299)
+
+[38;5;47m[4d157a7f][0m[38;5;160m[Logcat][0m Stopping logcat capture
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m Event 'quitSessionFinished' logged at 1733679241340 (19:34:01 GMT+0200 (Eastern European Standard Time))
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m Received response: null
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m But deleting session, so not returning
+[38;5;47m[4d157a7f][0m[38;5;107m[AppiumDriver@1f88][0m Responding to client with driver.deleteSession() result: null
+[38;5;47m[4d157a7f][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/4d157a7f-9ba6-4f20-ab4e-82e1da677248 [39m[32m200[39m [90m342 ms - 14[39m [90m[39m

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestGeneralStore</name>
+   <tag>MainTC</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>842ea064-23b2-4c21-aee8-55308a8f23dc</testCaseGuid>
+</TestCaseEntity>
